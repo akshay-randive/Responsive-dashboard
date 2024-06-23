@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Reset some default styles */
+html,
+body,
+app-root {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.mat-sidenav-container {
+    flex: 1;
+    /* Take up remaining space */
+    display: flex;
+    flex-direction: column;
+}
+
+.mat-sidenav-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.footer {
+    text-align: center;
+}

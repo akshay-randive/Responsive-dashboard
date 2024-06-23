@@ -1,0 +1,33 @@
+/* app.component.scss */
+
+.sidenav-container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    flex-direction: column;
+  }
+  
+  .mat-sidenav-container {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mat-sidenav-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
